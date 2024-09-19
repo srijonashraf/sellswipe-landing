@@ -1,0 +1,156 @@
+[{
+  "_id": {
+    "$oid": "66bb6cb38dc95a3aa42f86a6"
+  },
+  "categoryName": "Industrial Equipment",
+  "categoryImg": {
+    "url": "https://res.cloudinary.com/srijonashraf/image/upload/v1723598503/sellswipe/web/category/ulufxkjogwgc9mprr4uu.png",
+    "pid": "sellswipe/web/category/ulufxkjogwgc9mprr4uu"
+  },
+  "subCategories": [],
+  "createdAt": {
+    "$date": "2024-08-13T14:24:51.610Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-14T01:21:42.393Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bb6cc38dc95a3aa42f86ac"
+  },
+  "categoryName": "Pet & Animals",
+  "categoryImg": {
+    "url": "https://res.cloudinary.com/srijonashraf/image/upload/v1723598560/sellswipe/web/category/sy8jvq4u3krseawvyzye.png",
+    "pid": "sellswipe/web/category/sy8jvq4u3krseawvyzye"
+  },
+  "subCategories": [],
+  "createdAt": {
+    "$date": "2024-08-13T14:25:07.252Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-14T01:22:39.796Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bb6cdf8dc95a3aa42f86b2"
+  },
+  "categoryName": "Collectibles & Art",
+  "categoryImg": {
+    "url": "https://res.cloudinary.com/srijonashraf/image/upload/v1723598620/sellswipe/web/category/clsems9njpzvhxngulbd.png",
+    "pid": "sellswipe/web/category/clsems9njpzvhxngulbd"
+  },
+  "subCategories": [],
+  "createdAt": {
+    "$date": "2024-08-13T14:25:35.661Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-14T01:23:39.866Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bb6d2c8dc95a3aa42f86b8"
+  },
+  "categoryName": "Gadget & Phones",
+  "categoryImg": {
+    "url": "https://res.cloudinary.com/srijonashraf/image/upload/v1723598670/sellswipe/web/category/clyvl7zvqn8sdwfb5tjp.png",
+    "pid": "sellswipe/web/category/clyvl7zvqn8sdwfb5tjp"
+  },
+  "subCategories": [],
+  "createdAt": {
+    "$date": "2024-08-13T14:26:52.364Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-14T01:24:30.240Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bc0310fdbcbb069b56d1f7"
+  },
+  "categoryName": "Electronics",
+  "categoryImg": {
+    "url": "https://res.cloudinary.com/srijonashraf/image/upload/v1723597584/sellswipe/web/category/ynqf8m0dqici52exbtoe.png",
+    "pid": "sellswipe/web/category/ynqf8m0dqici52exbtoe"
+  },
+  "subCategories": [],
+  "createdAt": {
+    "$date": "2024-08-14T01:06:24.683Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-14T01:06:24.683Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bc43a7b5f65523509e4bdf"
+  },
+  "categoryName": "Home & Living",
+  "categoryImg": {
+    "url": "https://res.cloudinary.com/srijonashraf/image/upload/v1723614119/sellswipe/web/category/jauadq8pmgmt3b9vcyl0.png",
+    "pid": "sellswipe/web/category/jauadq8pmgmt3b9vcyl0"
+  },
+  "subCategories": [],
+  "createdAt": {
+    "$date": "2024-08-14T05:41:59.727Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-14T05:41:59.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bc48b2526dc888c855f082"
+  },
+  "categoryName": "Fashion",
+  "categoryImg": {
+    "url": "https://res.cloudinary.com/srijonashraf/image/upload/v1723615410/sellswipe/web/category/mwsalllzhlxtqmpo2ogb.png",
+    "pid": "sellswipe/web/category/mwsalllzhlxtqmpo2ogb"
+  },
+  "subCategories": [
+    {
+      "name": "Men's Footware",
+      "_id": {
+        "$oid": "66bc48ee526dc888c855f093"
+      }
+    },
+    {
+      "name": "Women's Footware",
+      "_id": {
+        "$oid": "66bc48ee526dc888c855f094"
+      }
+    },
+    {
+      "name": "Women's Clothing",
+      "_id": {
+        "$oid": "66bc48ee526dc888c855f096"
+      }
+    },
+    {
+      "name": "Watches",
+      "_id": {
+        "$oid": "66bc48ee526dc888c855f097"
+      }
+    },
+    {
+      "name": "Jewelry",
+      "_id": {
+        "$oid": "66bc48ee526dc888c855f098"
+      }
+    },
+    {
+      "name": "Men's Clothing",
+      "_id": {
+        "$oid": "66bc827534f443f570a78543"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-08-14T06:03:30.787Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-16T14:13:56.674Z"
+  }
+}]
