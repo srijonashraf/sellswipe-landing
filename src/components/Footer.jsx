@@ -3,10 +3,10 @@ import { ShoppingBasket } from "lucide-react";
 
 const Footer = () => {
   const images = [
-    "../../src/assets/img/socials/facebook.png",
-    "../../src/assets/img/socials/whatsapp.png",
-    "../../src/assets/img/socials/linkedin.png",
-    "../../src/assets/img/socials/telegram.png",
+    "/socials/facebook.png",
+    "/socials/whatsapp.png",
+    "/socials/linkedin.png",
+    "/socials/telegram.png",
   ];
   return (
     <div className="flex w-full flex-col items-center bg-gray-100 py-12 md:py-24 lg:py-32">
