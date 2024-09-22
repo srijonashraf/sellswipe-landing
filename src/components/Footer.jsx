@@ -10,7 +10,7 @@ const Footer = () => {
   ];
   return (
     <div className="flex w-full flex-col items-center bg-gray-100 py-12 md:py-24 lg:py-32">
-      <div className="container max-w-5xl mx-auto px-4 md:px-6">
+      <div className="container mx-auto max-w-5xl px-4 md:px-6">
         <div className="flex flex-col flex-wrap justify-between gap-8 sm:flex-row">
           <div className="flex flex-col items-start gap-3">
             {/* Social Links */}
@@ -85,6 +85,19 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="mt-10 flex items-end justify-center whitespace-nowrap">
+          <p>
+            © {new Date().getFullYear()}. All rights reserved. Made by{" "}
+            <span className="cursor-pointer font-bold">
+              <a
+                target="_blank"
+                href="https://srijonashraf.notion.site/Srijon-Ashraf-Zim-bf4b9fdfa6744ba6b6cd44859cf6fc50?pvs=74"
+              >
+                Srijon Ashraf
+              </a>
+            </span>
+          </p>
         </div>
       </div>
     </div>

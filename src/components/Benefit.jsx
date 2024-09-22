@@ -17,7 +17,7 @@ const Benefit = () => {
         </div>
         <div className="mx-auto grid max-w-5xl rounded-lg border max-md:divide-y-2 md:grid-cols-3 md:divide-x-2">
           <div className="grid gap-1 p-8 md:p-10">
-            <Rainbow size={30} />
+            <Rainbow size={30} className="text-brand-primary" />
             <h3 className="whitespace-nowrap text-xl font-semibold">
               Convenience
             </h3>
@@ -27,7 +27,7 @@ const Benefit = () => {
             </p>
           </div>
           <div className="grid gap-1 p-8 md:p-10">
-            <MapPinned size={30} />
+            <MapPinned size={30} className="text-brand-primary" />
             <h3 className="whitespace-nowrap text-xl font-semibold">
               Local Community
             </h3>
@@ -37,7 +37,7 @@ const Benefit = () => {
             </p>
           </div>
           <div className="grid gap-1 p-8 md:p-10">
-            <HandCoins size={30} />
+            <HandCoins size={30} className="text-brand-primary" />
             <h3 className="whitespace-nowrap text-xl font-semibold">Savings</h3>
             <p>
               Find great deals on items you need, and earn extra cash by selling

@@ -19,7 +19,7 @@ const HowItWorks = () => {
         </div>
         <div className="mx-auto grid max-w-5xl rounded-lg border max-md:divide-y-2 md:grid-cols-3 md:divide-x-2">
           <div className="grid gap-1 p-8 md:p-10">
-            <Search size={30} />
+            <Search size={30} className="text-brand-primary" />
             <h3 className="whitespace-nowrap text-xl font-semibold">
               Search and browse
             </h3>
@@ -29,7 +29,7 @@ const HowItWorks = () => {
             </p>
           </div>
           <div className="grid gap-1 p-8 md:p-10">
-            <Upload size={30} />
+            <Upload size={30} className="text-brand-primary" />
             <h3 className="whitespace-nowrap text-xl font-semibold">
               List Your Items
             </h3>
@@ -39,7 +39,7 @@ const HowItWorks = () => {
             </p>
           </div>
           <div className="grid gap-1 p-8 md:p-10">
-            <ShoppingBasket size={30} />
+            <ShoppingBasket size={30} className="text-brand-primary" />
             <h3 className="whitespace-nowrap text-xl font-semibold">
               Complete buy or sell
             </h3>
