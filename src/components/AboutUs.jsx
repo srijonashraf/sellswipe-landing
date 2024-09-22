@@ -1,7 +1,7 @@
 import React from "react";
 import { CardBase, CardContent, CardHeader, CardTitle } from "../lib/Card";
 import { Button } from "../lib";
-import { ArrowRight, Mail, Phone, ShoppingBag, Users, Zap } from "lucide-react"; // Add other icons you might need
+import { ArrowRight, Mail, Phone, ShoppingBag, Users, Zap } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 const AboutUs = () => {
