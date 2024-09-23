@@ -4,9 +4,9 @@ import AppLayout from "./../layouts/AppLayout";
 
 const About = () => {
   return (
-    <AppLayout>
+    <>
       <AboutUs />
-    </AppLayout>
+    </>
   );
 };
 

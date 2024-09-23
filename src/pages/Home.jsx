@@ -9,14 +9,14 @@ import CTA from "../components/CTA";
 
 const Home = () => {
   return (
-    <AppLayout>
+    <>
       <Hero />
       <PopularCategories />
       <HowItWorks />
       <Benefit />
       <NewArrivals />
       <CTA />
-    </AppLayout>
+    </>
   );
 };
 

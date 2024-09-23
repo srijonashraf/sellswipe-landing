@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./../lib/Button/index";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const CTA = () => {
   return (
@@ -35,7 +35,7 @@ const CTA = () => {
           </div>
           <div className="flex gap-5">
             <Button className="h-10 bg-brand-secondary px-5 hover:bg-brand-secondary/90">
-              <NavLink to={`/about`}>Learn More</NavLink>
+              <Link to={`/about`}>Learn More</Link>
             </Button>
           </div>
         </div>

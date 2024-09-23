@@ -2,7 +2,7 @@ import React from "react";
 import { CardBase, CardContent, CardHeader, CardTitle } from "../lib/Card";
 import { Button } from "../lib";
 import { ArrowRight, Mail, Phone, ShoppingBag, Users, Zap } from "lucide-react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -140,7 +140,7 @@ const AboutUs = () => {
             </CardBase>
           </div>
           <div className="flex justify-center">
-            <NavLink to={`/`}>
+            <Link to={`/`}>
               <Button className="group h-12 bg-brand-secondary px-10 text-xl font-bold hover:bg-brand-secondary/90">
                 Start Swipping Today{" "}
                 <span>
@@ -150,7 +150,7 @@ const AboutUs = () => {
                   />
                 </span>
               </Button>
-            </NavLink>
+            </Link>
           </div>
         </div>
       </div>
