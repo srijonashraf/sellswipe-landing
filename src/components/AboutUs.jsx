@@ -24,7 +24,7 @@ const AboutUs = () => {
           </div>
 
           {/* Sell and Buy Cards */}
-          <div className="flex gap-5">
+          <div className="flex flex-col gap-5 sm:flex-row">
             <CardBase className="rounded-md">
               <CardHeader>Have items to sell?</CardHeader>
               <CardContent className="space-y-3">
