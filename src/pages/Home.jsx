@@ -1,5 +1,4 @@
 import React from "react";
-import AppLayout from "../layouts/AppLayout";
 import Hero from "../components/Hero";
 import PopularCategories from "../components/PopularCategories";
 import HowItWorks from "../components/HowItWorks";

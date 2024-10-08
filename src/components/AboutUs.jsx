@@ -14,13 +14,17 @@ const AboutUs = () => {
             <h1 className="text-center text-3xl font-bold tracking-wide sm:text-5xl md:tracking-normal">
               About SellSwipe
             </h1>
-            <p className="rounded-md border p-3 text-justify text-base text-gray-500 sm:text-xl">
-              SellSwipe is a revolutionary platform where you can buy and sell
-              almost everything! Our mission is to simplify the process of
-              buying and selling items, making it accessible to everyone. Use
-              our location-based search to find great deals near you or explore
-              our wide range of categories.
-            </p>
+            <CardBase className="rounded-md">
+              <CardContent>
+                <p className="text-justify text-base sm:text-xl">
+                  SellSwipe is a revolutionary platform where you can buy and sell
+                  almost everything! Our mission is to simplify the process of
+                  buying and selling items, making it accessible to everyone. Use
+                  our location-based search to find great deals near you or explore
+                  our wide range of categories.
+                </p>
+              </CardContent>
+            </CardBase>
           </div>
 
           {/* Sell and Buy Cards */}
